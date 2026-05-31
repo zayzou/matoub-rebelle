@@ -4,10 +4,46 @@ import Image from "next/image";
 import { ArrowRight, Music, BookOpen, Camera, Play, Quote } from "lucide-react";
 import albumsData from "@/content/albums.json";
 import quotesData from "@/content/quotes.json";
+import { matoubJsonLd, organizationJsonLd } from "@/app/(site)/structured-data";
 
 export const metadata: Metadata = {
-  title: "Matoub Lounès — Le Rebelle Kabyle",
-  description: "Site officiel dédié à Matoub Lounès, poète et chanteur kabyle (1956–1998), voix immortelle de la Kabylie.",
+  title: "Matoub Lounès — Le Rebelle Kabyle | Chanteur, Poète, Symbole de Liberté",
+  description: "Découvrez la vie et l'œuvre de Matoub Lounès (1956–1998), le chanteur-poète kabyle qui a marqué la culture amazigh. Albums, chansons, biographie, vidéos et hommages.",
+  keywords: [
+    "Matoub Lounès",
+    "Chanteur kabyle",
+    "Poète amazigh",
+    "Liberté",
+    "Kabylie",
+    "Tamazight",
+    "Musique kabyle",
+    "Hommage",
+  ],
+  alternates: {
+    canonical: "https://matoub-rebelle.com",
+  },
+  openGraph: {
+    type: "website",
+    locale: "fr_FR",
+    url: "https://matoub-rebelle.com",
+    siteName: "Matoub Lounès — Le Rebelle",
+    title: "Matoub Lounès — Le Rebelle Kabyle",
+    description: "Chanteur-poète kabyle (1956–1998), symbole de liberté et d'identité culturelle amazigh.",
+    images: [
+      {
+        url: "https://matoub-rebelle.com/images/photos/studio/213.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Matoub Lounès",
+      },
+      {
+        url: "https://matoub-rebelle.com/images/photos/studio/220.jpg",
+        width: 800,
+        height: 800,
+        alt: "Portrait de Matoub Lounès",
+      },
+    ],
+  },
 };
 
 const STATS = [

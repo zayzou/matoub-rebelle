@@ -2,11 +2,40 @@ import { Metadata } from "next";
 import { Award } from "lucide-react";
 import { BreadcrumbNav } from "@/components/common/BreadcrumbNav";
 import { SectionTitle } from "@/components/common/SectionTitle";
+import { JsonLdScript } from "@/components/common/JsonLdScript";
+import { articleJsonLd, breadcrumbJsonLd } from "@/app/(site)/structured-data";
 
 export const metadata: Metadata = {
-  title: "Biographie de Matoub Lounès",
+  title: "Biographie de Matoub Lounès — Le Rebelle Kabyle",
   description:
-    "Biographie complète de Matoub Lounès, chanteur-poète kabyle, de son enfance à Taourirt Moussa jusqu'à son assassinat le 25 juin 1998.",
+    "Biographie complète de Matoub Lounès (1956–1998). Découvrez son enfance à Taourirt Moussa, sa carrière musicale, son engagement politique pour la culture amazigh et les circonstances de son assassinat.",
+  alternates: {
+    canonical: "https://matoub-rebelle.com/le-rebelle/biographie",
+  },
+  keywords: [
+    "Matoub Lounès",
+    "Biographie",
+    "Chanteur kabyle",
+    "1956",
+    "1998",
+    "Assassinat",
+    "Kabylie",
+  ],
+  openGraph: {
+    type: "article",
+    locale: "fr_FR",
+    url: "https://matoub-rebelle.com/le-rebelle/biographie",
+    title: "Biographie de Matoub Lounès",
+    description: "La vie complète de Matoub Lounès, de sa naissance en 1956 à son assassinat en 1998.",
+    images: [
+      {
+        url: "https://matoub-rebelle.com/images/photos/studio/220.jpg",
+        width: 800,
+        height: 800,
+        alt: "Matoub Lounès",
+      },
+    ],
+  },
 };
 
 export default function BiographiePage() {

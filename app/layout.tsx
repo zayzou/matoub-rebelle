@@ -11,14 +11,42 @@ export const metadata: Metadata = {
     shortcut: "/favicon.ico",
   },
   description:
-    "Site entièrement consacré à la vie et à l'œuvre de Matoub Lounès, le célèbre chanteur/poète Kabyle et porte-parole d'un peuple.",
-  keywords: ["Matoub Lounès", "Kabylie", "Rebelle", "Kabyle", "Tamazight", "Imazighen"],
+    "Site entièrement consacré à la vie et à l'œuvre de Matoub Lounès, le célèbre chanteur-poète Kabyle (1956–1998), symbole de liberté et d'identité amazigh.",
+  keywords: [
+    "Matoub Lounès",
+    "Chanteur kabyle",
+    "Poète amazigh",
+    "Kabylie",
+    "Tamazight",
+    "Imazighen",
+    "Musique kabyle",
+    "Liberté",
+    "Identité culturelle",
+  ],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+  },
   openGraph: {
     type: "website",
     locale: "fr_FR",
     siteName: "Matoub Lounès — Le Rebelle",
     title: "Matoub Lounès — Le Rebelle",
-    description: "La vie et l'œuvre de Matoub Lounès, poète et chanteur kabyle (1956–1998).",
+    description: "La vie et l'œuvre de Matoub Lounès, poète et chanteur kabyle (1956–1998), symbole de liberté.",
+    url: "https://matoub-rebelle.com",
+    images: [
+      {
+        url: "https://matoub-rebelle.com/images/studio/213.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Matoub Lounès — Le Rebelle",
+        type: "image/jpeg",
+      },
+    ],
+  },
+  alternates: {
+    canonical: "https://matoub-rebelle.com",
   },
 };
 

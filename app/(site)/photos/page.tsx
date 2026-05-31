@@ -6,7 +6,36 @@ import { SectionTitle } from "@/components/common/SectionTitle";
 import { Camera, ArrowRight } from "lucide-react";
 import photosData from "@/content/photos.json";
 
-export const metadata: Metadata = { title: "Galerie Photos" };
+export const metadata: Metadata = {
+  title: "Galerie Photos de Matoub Lounès — 6 Collections Thématiques",
+  description:
+    "Découvrez la galerie photo complète de Matoub Lounès. 6 collections : photos personnelles, concerts, studio, chez lui, pochettes d'albums et œuvres artistiques.",
+  alternates: {
+    canonical: "https://matoub-rebelle.com/photos",
+  },
+  keywords: [
+    "Photos Matoub Lounès",
+    "Galerie photos",
+    "Concerts",
+    "Studio",
+    "Matoub Lounès images",
+  ],
+  openGraph: {
+    type: "website",
+    locale: "fr_FR",
+    url: "https://matoub-rebelle.com/photos",
+    title: "Galerie Photos — Matoub Lounès",
+    description: "Explorez plus de 200 photos : life, concerts, studio, vie privée, pochettes et œuvres.",
+    images: [
+      {
+        url: "https://matoub-rebelle.com/images/photos/studio/001.jpg",
+        width: 800,
+        height: 600,
+        alt: "Galerie photo",
+      },
+    ],
+  },
+};
 
 const CATEGORIES = [
   {

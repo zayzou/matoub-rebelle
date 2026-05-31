@@ -119,10 +119,16 @@ export function Footer() {
         className="border-t"
         style={{ borderColor: "rgba(42,90,200,0.12)" }}
       >
-        <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <p className="text-xs" style={{ color: "var(--color-subtle)" }}>
-            © Site dédié à la mémoire de Matoub Lounès · Non-officiel · À but non lucratif
-          </p>
+        <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="flex flex-col sm:flex-row items-center gap-2">
+            <p className="text-xs" style={{ color: "var(--color-subtle)" }}>
+              © Site dédié à la mémoire de Matoub Lounès · Non-officiel · À but non lucratif
+            </p>
+            <span className="text-xs text-gray-400 hidden sm:inline">·</span>
+            <p className="text-xs" style={{ color: "var(--color-subtle)" }}>
+              Développé par <span className="font-semibold">Zahir</span>
+            </p>
+          </div>
           <div className="flex items-center gap-4">
             <Link href="/contact" className="text-xs transition-opacity hover:opacity-80" style={{ color: "var(--color-subtle)" }}>
               Contact

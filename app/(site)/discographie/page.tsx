@@ -4,7 +4,36 @@ import { SectionTitle } from "@/components/common/SectionTitle";
 import { AlbumCard } from "@/components/features/AlbumCard";
 import albumsData from "@/content/albums.json";
 
-export const metadata: Metadata = { title: "Discographie de Matoub Lounès" };
+export const metadata: Metadata = {
+  title: "Discographie de Matoub Lounès — 28 Albums et 300+ Chansons",
+  description:
+    "Découvrez l'intégralité de la discographie de Matoub Lounès. 28 albums, plus de 300 chansons de musique kabyle traditionnelle et moderne. Listes des pistes, dates de sortie et labels.",
+  alternates: {
+    canonical: "https://matoub-rebelle.com/discographie",
+  },
+  keywords: [
+    "Discographie Matoub Lounès",
+    "Albums kabyles",
+    "Chansons kabyles",
+    "Tamazight",
+    "Musique amazigh",
+  ],
+  openGraph: {
+    type: "website",
+    locale: "fr_FR",
+    url: "https://matoub-rebelle.com/discographie",
+    title: "Discographie de Matoub Lounès",
+    description: "28 albums et plus de 300 chansons — la discographie complète du poète-chanteur kabyle.",
+    images: [
+      {
+        url: "https://matoub-rebelle.com/images/photos/pochettes-albums/01.jpg",
+        width: 500,
+        height: 500,
+        alt: "Pochettes d'albums",
+      },
+    ],
+  },
+};
 
 export default function DiscographiePage() {
   return (
