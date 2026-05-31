@@ -126,7 +126,7 @@ export function Footer() {
             </p>
             <span className="text-xs text-gray-400 hidden sm:inline">·</span>
             <p className="text-xs" style={{ color: "var(--color-subtle)" }}>
-              Développé par <span className="font-semibold">Zahir</span>
+              Développé par <span className="font-semibold">Zahir</span> avec ❤️
             </p>
           </div>
           <div className="flex items-center gap-4">

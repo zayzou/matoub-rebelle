@@ -254,8 +254,12 @@ export function Navbar() {
       {mobileOpen && (
         <div
           className="lg:hidden fixed inset-0 z-40 overflow-y-auto"
-          style={{ background: "rgba(253,248,241,0.99)", backdropFilter: "blur(20px)", top: "64px",
-            borderTop: "1px solid rgba(180,140,80,0.15)" }}
+          style={{
+            background: "rgba(253,248,241,0.99)",
+            backdropFilter: "blur(20px)",
+            top: "64px",
+            borderTop: "1px solid rgba(180,140,80,0.15)",
+          }}
         >
           <div className="max-w-md mx-auto p-6">
             {NAV.map((item) => (
@@ -263,7 +267,7 @@ export function Navbar() {
                 {item.href ? (
                   <Link
                     href={item.href}
-                    className="flex items-center justify-between w-full px-4 py-3 rounded-xl text-sm font-medium"
+                    className="flex items-center justify-between w-full px-4 py-3 rounded-xl text-sm font-medium transition-colors"
                     style={{
                       background: isActive(item) ? "rgba(255,179,0,0.08)" : "transparent",
                       color: isActive(item) ? "var(--color-gold)" : "var(--color-text)",
@@ -275,7 +279,7 @@ export function Navbar() {
                   <>
                     <div
                       className="px-4 pt-5 pb-2 text-xs font-bold tracking-widest uppercase"
-                      style={{ color: "rgba(255,179,0,0.5)" }}
+                      style={{ color: "var(--color-gold)" }}
                     >
                       {item.label}
                     </div>
@@ -283,10 +287,11 @@ export function Navbar() {
                       <Link
                         key={child.href}
                         href={child.href}
-                        className="block px-5 py-2 rounded-lg text-sm"
+                        className="block px-5 py-2.5 rounded-lg text-sm font-medium transition-colors"
                         style={{
-                          color: pathname === child.href ? "var(--color-gold)" : "rgba(232,238,255,0.65)",
-                          fontWeight: pathname === child.href ? 600 : 400,
+                          color: pathname === child.href ? "var(--color-gold)" : "var(--color-text)",
+                          background: pathname === child.href ? "rgba(255,179,0,0.1)" : "transparent",
+                          fontWeight: pathname === child.href ? 600 : 500,
                         }}
                       >
                         {child.label}
