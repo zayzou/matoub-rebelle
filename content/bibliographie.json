@@ -1,0 +1,123 @@
+[
+  {
+    "id": "1",
+    "title": "Rebelle",
+    "author": "Matoub Lounès",
+    "role": "Autobiographie",
+    "year": 1995,
+    "publisher": "Stock",
+    "description": "Autobiographie écrite après son enlèvement par le GIA en 1994. Matoub y raconte son enfance en Kabylie, son parcours artistique, son engagement politique et les 15 jours passés en otage.",
+    "cover": "/images/divers/rebelle.jpg",
+    "pages": 250,
+    "amazon": "https://www.amazon.fr/Rebelle-Matoub-Lounes/dp/2234044405"
+  },
+  {
+    "id": "2",
+    "title": "Mon nom est combat",
+    "author": "Malika Matoub",
+    "role": "Témoignage",
+    "year": 2009,
+    "publisher": "Éditions Michalon",
+    "description": "Écrit par la sœur de Matoub, ce livre raconte le combat de toute une famille pour que la lumière soit faite sur l'assassinat du Rebelle. Un témoignage poignant et courageux.",
+    "cover": "/images/divers/mon-nom-est-combat.jpg",
+    "pages": 220,
+    "amazon": "https://www.amazon.fr/Mon-nom-est-combat-Malika/dp/2840861577"
+  },
+  {
+    "id": "3",
+    "title": "Matoub Lounès mon frère",
+    "author": "Malika Matoub",
+    "role": "Témoignage",
+    "year": 1999,
+    "publisher": "Albin Michel",
+    "description": "Premier témoignage de la sœur du chanteur, publié un an après son assassinat. Un portrait intime et familial de Lounès Matoub, de son enfance à sa mort.",
+    "cover": "/images/divers/mon-frere.jpg",
+    "pages": 200,
+    "amazon": "https://www.amazon.fr/Matoub-Loun%C3%A8s-mon-fr%C3%A8re-Malika/dp/2226108327"
+  },
+  {
+    "id": "4",
+    "title": "Pour l'amour d'un rebelle",
+    "author": "Nadia Matoub",
+    "role": "Témoignage",
+    "year": 2002,
+    "publisher": "Plon",
+    "description": "Récit de l'épouse de Matoub Lounès. Elle raconte leur rencontre, leur vie commune, et les circonstances de l'assassinat de son mari sur la route de Tala Bounane en juin 1998.",
+    "cover": "/images/divers/amour-d-un-rebelle.jpg",
+    "pages": 230,
+    "amazon": "https://www.amazon.fr/Pour-lamour-dun-rebelle-Matoub/dp/222109185X"
+  },
+  {
+    "id": "5",
+    "title": "Le Barde Flingué",
+    "author": "Salem Zenia",
+    "role": "Biographie",
+    "year": 2005,
+    "publisher": "Éditions Michalon",
+    "description": "Biographie fouillée de Matoub Lounès, retraçant son parcours d'artiste engagé et son combat pour la défense de la culture berbère et de la démocratie en Algérie.",
+    "cover": "/images/divers/le-barde-flingue.jpg",
+    "pages": 320,
+    "amazon": "https://www.amazon.fr/s?k=Le+Barde+flinqu%C3%A9+Salem+Zenia"
+  },
+  {
+    "id": "6",
+    "title": "Matoub Lounès, l'assoiffé d'azur",
+    "author": "Smaïl Grim",
+    "role": "Essai",
+    "year": 2001,
+    "publisher": "Éditions Barzakh",
+    "description": "Ni essai sémantique, ni biographie romancée, cet ouvrage se veut un coup de cœur pour une évocation du « Maquisard de la Culture algérienne ».",
+    "cover": "/images/divers/l-assoiffe-d-azur.jpg",
+    "pages": 180,
+    "amazon": "https://www.amazon.fr/s?k=Matoub+Loun%C3%A8s+assoiff%C3%A9+d+azur"
+  },
+  {
+    "id": "7",
+    "title": "Anazbay, le résistant",
+    "author": "Arezki Metref",
+    "role": "Portrait",
+    "year": 2003,
+    "publisher": "Éditions Talantikit",
+    "description": "Portrait de Matoub à travers ses chansons, ses déclarations et les témoignages de ceux qui l'ont connu. Un regard sur le poète en tant que résistant culturel.",
+    "cover": "/images/divers/anazbay.jpg",
+    "pages": 200,
+    "amazon": "https://www.amazon.fr/s?k=Anazbay+le+r%C3%A9sistant+Matoub"
+  },
+  {
+    "id": "8",
+    "title": "Matoub Lounès, notes et souvenirs d'un compagnon de lutte",
+    "author": "Tayeb Abdelli",
+    "role": "Témoignage",
+    "year": 2019,
+    "publisher": "Autoédition",
+    "description": "Témoignage intime d'un compagnon de lutte de Matoub. L'auteur raconte leur amitié, leurs combats communs et livre des anecdotes inédites sur l'homme derrière l'artiste.",
+    "cover": null,
+    "pages": null,
+    "amazon": "https://www.amazon.fr/Matoub-Loun%C3%A8s-notes-souvenirs-compagnon/dp/B07PBD8QKZ"
+  },
+  {
+    "id": "9",
+    "title": "Matoub Lounès, Tafat n wurghu (La lumière de l'or)",
+    "author": "Collectif",
+    "role": "Anthologie",
+    "year": 2011,
+    "publisher": "Éditions Mehdi, Tizi Ouzou",
+    "description": "Ouvrage de près de 700 pages retraçant l'itinéraire de Matoub Lounès. Il rassemble des témoignages inédits, des photos rares et des analyses de son œuvre poétique et musicale.",
+    "cover": null,
+    "pages": 700,
+    "amazon": "https://www.amazon.fr/s?k=Matoub+Loun%C3%A8s+Tafat+n+wurghu"
+  },
+  {
+    "id": "10",
+    "title": "Lounès Matoub dans le cœur",
+    "author": "Karim Kherbouche",
+    "role": "Hommage",
+    "year": 2024,
+    "publisher": "Autoédition",
+    "description": "Nouvelle parution (décembre 2024). Un témoignage intime et vibrant sur l'influence et l'héritage de Matoub. L'auteur explore le parcours du chanteur, son engagement, son humanité et sa résonance aujourd'hui.",
+    "cover": null,
+    "pages": null,
+    "amazon": "https://www.amazon.fr/Loun%C3%A8s-Matoub-dans-c%C5%93ur-admirateurs/dp/B0DR8HN82G",
+    "isNew": true
+  }
+]

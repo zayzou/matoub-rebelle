@@ -1,0 +1,1254 @@
+[
+  {
+    "id": "pr1",
+    "year": "1978",
+    "title": "Ay izem",
+    "slug": "ay-izem",
+    "cover": "/images/photos/pochettes-albums/370.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Ay izem"
+      },
+      {
+        "num": 2,
+        "title": "Ifenanen"
+      },
+      {
+        "num": 3,
+        "title": "Tegrawla nneɣ"
+      },
+      {
+        "num": 4,
+        "title": "Aqlaɣ"
+      },
+      {
+        "num": 5,
+        "title": "Ya lferh-iw"
+      },
+      {
+        "num": 6,
+        "title": "Lehbab-iw"
+      },
+      {
+        "num": 7,
+        "title": "Terriḍ"
+      },
+      {
+        "num": 8,
+        "title": "Anfiyi"
+      }
+    ]
+  },
+  {
+    "id": "pr2",
+    "year": "1978",
+    "title": "Daεwessu",
+    "slug": "da-wessu",
+    "cover": "/images/photos/pochettes-albums/364.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "A yemma aεzizen"
+      },
+      {
+        "num": 2,
+        "title": "Azul felawen"
+      },
+      {
+        "num": 3,
+        "title": "Nehder mitmal ddunit"
+      },
+      {
+        "num": 4,
+        "title": "Tiɣratin an ṛuḥ"
+      },
+      {
+        "num": 5,
+        "title": "Inaɣd ayen akka"
+      },
+      {
+        "num": 6,
+        "title": "Ddeεwessu"
+      }
+    ]
+  },
+  {
+    "id": "pr3",
+    "year": "1979",
+    "title": "Ṛuḥ ay aqcic",
+    "slug": "u-ay-aqcic",
+    "cover": "/images/photos/pochettes-albums/363.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Yaw at n magret"
+      },
+      {
+        "num": 2,
+        "title": "Ṛuḥ ay aqcic (Va, jeune homme)"
+      },
+      {
+        "num": 3,
+        "title": "Eqdaɣ lyass"
+      },
+      {
+        "num": 4,
+        "title": "Ur diyi-sseḍlam (Le sort affligé)"
+      },
+      {
+        "num": 5,
+        "title": "Ay akal hader"
+      },
+      {
+        "num": 6,
+        "title": "Idewweṛ i wedrar (La montagne encerclée)"
+      },
+      {
+        "num": 7,
+        "title": "Amirouche et Ferhat"
+      },
+      {
+        "num": 8,
+        "title": "Yeb°ded lawan"
+      },
+      {
+        "num": 9,
+        "title": "Acangal yezi"
+      },
+      {
+        "num": 10,
+        "title": "Arqiq lhal-iw"
+      }
+    ]
+  },
+  {
+    "id": "pr4",
+    "year": "1979",
+    "title": "Yekkes-as i znad ucekkel",
+    "slug": "yekkes-as-i-znad-ucekkel",
+    "cover": null,
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Yekkes-as i znad ucekkal"
+      },
+      {
+        "num": 2,
+        "title": "Ay imesdurar (Les montagnards)"
+      },
+      {
+        "num": 3,
+        "title": "Aken kan id ttaxreɣ"
+      },
+      {
+        "num": 4,
+        "title": "A tidett wi kem-iεebban (Le fardeau de la vérité)"
+      },
+      {
+        "num": 5,
+        "title": "Iwexxer wagu"
+      },
+      {
+        "num": 6,
+        "title": "Ğeṛğeṛ yessawel i Luṛis (Le Djurdjura appelle les Aurès)"
+      }
+    ]
+  },
+  {
+    "id": "pr5",
+    "year": "1979",
+    "title": "A lḥif yuran",
+    "slug": "a-l-if-yuran",
+    "cover": "/images/photos/pochettes-albums/366.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Azul a mmi-s idurar (Au fils des montagnes)"
+      },
+      {
+        "num": 2,
+        "title": "Ger idurar n Luṛis (Les Aurès)"
+      },
+      {
+        "num": 3,
+        "title": "Ufiɣt yeduri tejra"
+      },
+      {
+        "num": 4,
+        "title": "Tegrurez"
+      },
+      {
+        "num": 5,
+        "title": "Ay idurar n Ğeṛğeṛ (Montagnes du Djurdjura)"
+      },
+      {
+        "num": 6,
+        "title": "Abehri"
+      },
+      {
+        "num": 7,
+        "title": "A lḥif yuran (Malheur inscrit)"
+      }
+    ]
+  },
+  {
+    "id": "pr6",
+    "year": "1979",
+    "title": "Ay aḥlili",
+    "slug": "ay-a-lili",
+    "cover": "/images/photos/pochettes-albums/367.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Ay aḥlili (La vérité dans les ronces)"
+      },
+      {
+        "num": 2,
+        "title": "Atidett rdju"
+      },
+      {
+        "num": 3,
+        "title": "Gara nneɣ ur d yigri usirem"
+      },
+      {
+        "num": 4,
+        "title": "Ay ahbib assa ad ṛuḥeɣ"
+      },
+      {
+        "num": 5,
+        "title": "Ak°it ay arrac nneɣ (Réveillez-vous, compagnons)"
+      }
+    ]
+  },
+  {
+    "id": "pr7",
+    "year": "1980",
+    "title": "A ttwaliɣ",
+    "slug": "a-ttwali",
+    "cover": "/images/photos/pochettes-albums/359.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Waka m di-ssawlen"
+      },
+      {
+        "num": 2,
+        "title": "Xas ṛuḥ (Fin de règne)"
+      },
+      {
+        "num": 3,
+        "title": "Ay aqcic (Au pays des Kabyles)"
+      },
+      {
+        "num": 4,
+        "title": "Annaɣ i yi-iga ṛṛay-iw (La raison dévoyée)"
+      },
+      {
+        "num": 5,
+        "title": "Tilelli (La liberté)"
+      },
+      {
+        "num": 6,
+        "title": "Uh ay ihbiben-is"
+      },
+      {
+        "num": 7,
+        "title": "Ttaṛ-im a m-t-id-rreɣ (Ta vengeance)"
+      },
+      {
+        "num": 8,
+        "title": "A ttwaliɣ (Vision)"
+      }
+    ]
+  },
+  {
+    "id": "pr8",
+    "year": "1980",
+    "title": "Récital à   l'Olympia 80 (JSK)",
+    "slug": "r-cital-l-olympia-80-jsk",
+    "cover": "/images/photos/pochettes-albums/375.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Intro"
+      },
+      {
+        "num": 2,
+        "title": "JSK"
+      },
+      {
+        "num": 3,
+        "title": "Imaziɣen (Hekun)"
+      },
+      {
+        "num": 4,
+        "title": "D aɣrib (L'exil)"
+      },
+      {
+        "num": 5,
+        "title": "Lgirra tefra"
+      },
+      {
+        "num": 6,
+        "title": "Poème"
+      },
+      {
+        "num": 7,
+        "title": "Tter"
+      }
+    ]
+  },
+  {
+    "id": "pr9",
+    "year": "1981",
+    "title": "Assagi lliɣ",
+    "slug": "assagi-lli",
+    "cover": "/images/photos/pochettes-albums/369.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Zhut ay arrac"
+      },
+      {
+        "num": 2,
+        "title": "Uh a yemma sber"
+      },
+      {
+        "num": 3,
+        "title": "Ya lfehr-iw"
+      },
+      {
+        "num": 4,
+        "title": "Poèmes tayeb"
+      },
+      {
+        "num": 5,
+        "title": "Tiɣratin"
+      },
+      {
+        "num": 6,
+        "title": "Assagi lliɣ (Je suis)"
+      }
+    ]
+  },
+  {
+    "id": "pr10",
+    "year": "1981",
+    "title": "Sleεbitt ay abeḥri (vol.1: Slaεbitt ay abeḥri, vol.2: Yeḥzen Lwad Aεissi)",
+    "slug": "sle-bitt-ay-abe-ri-vol-1-sla-bitt-ay-abe-ri-vol-2-ye-zen-lwad-a-issi",
+    "cover": "/images/photos/pochettes-albums/309.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Volume 1"
+      },
+      {
+        "num": 2,
+        "title": "Sleεb-itt ay abeḥri (Le vent de la liberté)"
+      },
+      {
+        "num": 3,
+        "title": "Defreɣ-k s wallen-iw"
+      },
+      {
+        "num": 4,
+        "title": "An-nerreẓ wala an-neknu (Plutôt rompre que plier)"
+      },
+      {
+        "num": 5,
+        "title": "Ay adrar n At Yiraten (La montagne des Aït Irathen)"
+      },
+      {
+        "num": 6,
+        "title": "Volume 2"
+      },
+      {
+        "num": 7,
+        "title": "Yeḥzen Lwad Aεisi (Oued Aissi en deuil)"
+      },
+      {
+        "num": 8,
+        "title": "Amuss yezga izedɣiten"
+      },
+      {
+        "num": 9,
+        "title": "Lwexda iṣaren (Terrible malheur)"
+      },
+      {
+        "num": 10,
+        "title": "Berzidan (Président)"
+      }
+    ]
+  },
+  {
+    "id": "pr11",
+    "year": "1981",
+    "title": "At Yiraten",
+    "slug": "at-yiraten",
+    "cover": "/images/photos/pochettes-albums/353.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Muggreɣ At Yiraten (Les Aït Irathen)"
+      },
+      {
+        "num": 2,
+        "title": "Iffis"
+      },
+      {
+        "num": 3,
+        "title": "A askri"
+      },
+      {
+        "num": 4,
+        "title": "A mmi aεzizen (Mon fils adoré)"
+      },
+      {
+        "num": 5,
+        "title": "Yenayi aqli ad ṛuḥeɣ"
+      },
+      {
+        "num": 6,
+        "title": "Anef-iyi ad ruɣ (L'aunée)"
+      }
+    ]
+  },
+  {
+    "id": "pr12",
+    "year": "1982",
+    "title": "Tirgin",
+    "slug": "tirgin",
+    "cover": "/images/photos/pochettes-albums/351.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Ru ay ul (Nos reniements)"
+      },
+      {
+        "num": 2,
+        "title": "Tiɣri idurar (L'appel des montagnes)"
+      },
+      {
+        "num": 3,
+        "title": "Kumiṣar (Commissaire)"
+      },
+      {
+        "num": 4,
+        "title": "Tirgin (Les braises)"
+      },
+      {
+        "num": 5,
+        "title": "Assa tesεiḍ (Mon coeur sous une dalle)"
+      },
+      {
+        "num": 6,
+        "title": "Letnayen iṛuḥ d tlata"
+      },
+      {
+        "num": 7,
+        "title": "Ameḥbus-iw (Mon prisonnier)"
+      },
+      {
+        "num": 8,
+        "title": "Mi neztel s lkif"
+      }
+    ]
+  },
+  {
+    "id": "pr13",
+    "year": "1983",
+    "title": "Tamsalt n Sliman",
+    "slug": "tamsalt-n-sliman",
+    "cover": "/images/photos/pochettes-albums/360.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Ur ifur"
+      },
+      {
+        "num": 2,
+        "title": "Imcumen"
+      },
+      {
+        "num": 3,
+        "title": "Allah wakbeṛ (Allah est grand)"
+      },
+      {
+        "num": 4,
+        "title": "Afalku bezru leɣrib"
+      },
+      {
+        "num": 5,
+        "title": "As lferh"
+      },
+      {
+        "num": 6,
+        "title": "Abrid at n aεqel"
+      },
+      {
+        "num": 7,
+        "title": "Tamsalt n Sliman (L'épreuve de Slimane)"
+      },
+      {
+        "num": 8,
+        "title": "Yir tayri (L'amour infâme)"
+      },
+      {
+        "num": 9,
+        "title": "A lexlaxel"
+      }
+    ]
+  },
+  {
+    "id": "pr14",
+    "year": "1984",
+    "title": "A tarwa n lḥif",
+    "slug": "a-tarwa-n-l-if",
+    "cover": "/images/photos/pochettes-albums/306.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Lhaq (La raison)"
+      },
+      {
+        "num": 2,
+        "title": "A sidi Abderahmane (Saint Abderahmane)"
+      },
+      {
+        "num": 3,
+        "title": "Monsieur le Président"
+      },
+      {
+        "num": 4,
+        "title": "Asa djazayri"
+      },
+      {
+        "num": 5,
+        "title": "Igujilen (Les orphelins)"
+      },
+      {
+        "num": 6,
+        "title": "A tarwa n lḥif (Les enfants du malheur)"
+      }
+    ]
+  },
+  {
+    "id": "pr15",
+    "year": "1985",
+    "title": "Da Hamou",
+    "slug": "da-hamou",
+    "cover": "/images/photos/pochettes-albums/362.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Da Hamou"
+      },
+      {
+        "num": 2,
+        "title": "Asɣersif (Le peuplier)"
+      },
+      {
+        "num": 3,
+        "title": "Yecbas i rebbi leqlam"
+      },
+      {
+        "num": 4,
+        "title": "Ẓẓehr-iw (Ma chance)"
+      },
+      {
+        "num": 5,
+        "title": "Tamsalt-iw (Mon épreuve)"
+      },
+      {
+        "num": 6,
+        "title": "Aṭṭan n mmi (Le mal de mon fils)"
+      },
+      {
+        "num": 7,
+        "title": "Lgirra n esscandriya"
+      },
+      {
+        "num": 8,
+        "title": "Qelleb lmetl-im (Ton exemple)"
+      }
+    ]
+  },
+  {
+    "id": "pr16",
+    "year": "1985",
+    "title": "Lbabur",
+    "slug": "lbabur",
+    "cover": null,
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Imɣereq"
+      },
+      {
+        "num": 2,
+        "title": "Ma suɣeɣ (La calamité)"
+      },
+      {
+        "num": 3,
+        "title": "Lbabur"
+      },
+      {
+        "num": 4,
+        "title": "Tadukla (L'amitié)"
+      },
+      {
+        "num": 5,
+        "title": "Ugadeɣ a k-rwin (Peur qu'ils te ravagent)"
+      },
+      {
+        "num": 6,
+        "title": "Zzriɣ accu"
+      },
+      {
+        "num": 7,
+        "title": "Lebɣ-iw d array-iw"
+      },
+      {
+        "num": 8,
+        "title": "Mrehba s lehbab"
+      }
+    ]
+  },
+  {
+    "id": "pr17",
+    "year": "1986",
+    "title": "Les deux compères",
+    "slug": "les-deux-comp-res",
+    "cover": "/images/photos/pochettes-albums/374.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Les deux compères"
+      },
+      {
+        "num": 2,
+        "title": "Yir argaz (Homme indigne)"
+      },
+      {
+        "num": 3,
+        "title": "A mes frères"
+      },
+      {
+        "num": 4,
+        "title": "Aɣrib (L'exilé)"
+      },
+      {
+        "num": 5,
+        "title": "Amek akka (Infamie et châtiment)"
+      },
+      {
+        "num": 6,
+        "title": "Utlif"
+      },
+      {
+        "num": 7,
+        "title": "Uh ay ihbiben-iw"
+      },
+      {
+        "num": 8,
+        "title": "Ul-iw gezm-it (Coeur-crible)"
+      }
+    ]
+  },
+  {
+    "id": "pr18",
+    "year": "1986",
+    "title": "Tamurt-iw",
+    "slug": "tamurt-iw",
+    "cover": "/images/photos/pochettes-albums/368.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Yir aqbayli"
+      },
+      {
+        "num": 2,
+        "title": "Ddunit-iw (Ma vie)"
+      },
+      {
+        "num": 3,
+        "title": "A tamurt-iw (Ma patrie)"
+      },
+      {
+        "num": 4,
+        "title": "Zzeyar (Les pèlerins)"
+      },
+      {
+        "num": 5,
+        "title": "Askri"
+      },
+      {
+        "num": 6,
+        "title": "Imdanen"
+      },
+      {
+        "num": 7,
+        "title": "Eras tili"
+      }
+    ]
+  },
+  {
+    "id": "pr19",
+    "year": "1987",
+    "title": "Tissirt n endama",
+    "slug": "tissirt-n-endama",
+    "cover": "/images/photos/pochettes-albums/373.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Tensa tafat"
+      },
+      {
+        "num": 2,
+        "title": "Udem n Lezzayer (Le visage de l'Algérie)"
+      },
+      {
+        "num": 3,
+        "title": "Sseḥseb (Pourpense)"
+      },
+      {
+        "num": 4,
+        "title": "Tadart-a"
+      },
+      {
+        "num": 5,
+        "title": "Instrumental tensa tafat"
+      },
+      {
+        "num": 6,
+        "title": "Tissirt n endama"
+      },
+      {
+        "num": 7,
+        "title": "Dayen idub ṛṛuḥ (Les âmes fendues)"
+      }
+    ]
+  },
+  {
+    "id": "pr20",
+    "year": "1988",
+    "title": "Lmut",
+    "slug": "lmut",
+    "cover": "/images/photos/pochettes-albums/376.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Lmut (La mort)"
+      },
+      {
+        "num": 2,
+        "title": "Ihedaden bb°awal (Les cisailleurs de mots)"
+      },
+      {
+        "num": 3,
+        "title": "Idrimen"
+      },
+      {
+        "num": 4,
+        "title": "Ay arrac (La jeunesse)"
+      },
+      {
+        "num": 5,
+        "title": "Tidett yeffren (La vérité enfouie)"
+      },
+      {
+        "num": 6,
+        "title": "Igiṛṛu n lkif (Le chanvre)"
+      },
+      {
+        "num": 7,
+        "title": "Uzu n tayri (Le couteau de l'amour)"
+      }
+    ]
+  },
+  {
+    "id": "pr21",
+    "year": "1988",
+    "title": "Rwah rwah",
+    "slug": "rwah-rwah",
+    "cover": "/images/photos/pochettes-albums/356.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Sserhas ay adu"
+      },
+      {
+        "num": 2,
+        "title": "Aɣrib (L'éxilé)"
+      },
+      {
+        "num": 3,
+        "title": "Abrid ireglen (La route entravée)"
+      },
+      {
+        "num": 4,
+        "title": "Rwah rwah"
+      },
+      {
+        "num": 5,
+        "title": "At-tili lḥağa (L'insaisissable)"
+      },
+      {
+        "num": 6,
+        "title": "Arrac n tmanyin"
+      },
+      {
+        "num": 7,
+        "title": "S kra b-b°i-ghelken yeḥla (Les souffrants sans rémission)"
+      },
+      {
+        "num": 8,
+        "title": "Attas i-ssyenan"
+      }
+    ]
+  },
+  {
+    "id": "pr22",
+    "year": "1989",
+    "title": "L'ironie du sort",
+    "slug": "l-ironie-du-sort",
+    "cover": "/images/photos/pochettes-albums/304.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Ayen iraden (L'ironie du sort)"
+      },
+      {
+        "num": 2,
+        "title": "Yir lehlak (Elle s'arrache: la liberté)"
+      },
+      {
+        "num": 3,
+        "title": "Wissen (La désillusion)"
+      },
+      {
+        "num": 4,
+        "title": "A win iṛuḥen (Amertumes et regrets)"
+      },
+      {
+        "num": 5,
+        "title": "Lεemeṛ-iw (Ma vie)"
+      },
+      {
+        "num": 6,
+        "title": "Imceblen (La déchirure)"
+      },
+      {
+        "num": 7,
+        "title": "Ameni (L'espoir)"
+      },
+      {
+        "num": 8,
+        "title": "Ssu-yas (La gifle)"
+      },
+      {
+        "num": 9,
+        "title": "Tarewla (Le repentir)"
+      }
+    ]
+  },
+  {
+    "id": "pr23",
+    "year": "1991",
+    "title": "Regard sur l'histoire d'un pays damné (vol.1: Regard sur l'histoire..., vol.2: Iẓri-w)",
+    "slug": "regard-sur-l-histoire-d-un-pays-damn-vol-1-regard-sur-l-histoire-vol-2-i-ri-w",
+    "cover": "/images/photos/pochettes-albums/372.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Volume 1"
+      },
+      {
+        "num": 2,
+        "title": "Regard sur l'histoire d'un pays damné (Chanson de 45 minutes)"
+      },
+      {
+        "num": 3,
+        "title": "Volume 2"
+      },
+      {
+        "num": 4,
+        "title": "Iẓri-w (Mes yeux)"
+      },
+      {
+        "num": 5,
+        "title": "Aḥlil Aḥlil (Misère pour misère)"
+      },
+      {
+        "num": 6,
+        "title": "Tadukli (Fratrie)"
+      },
+      {
+        "num": 7,
+        "title": "Uzu tassa"
+      },
+      {
+        "num": 8,
+        "title": "Abeḥri n lḥif (La brise du malheur)"
+      }
+    ]
+  },
+  {
+    "id": "pr24",
+    "year": "1993",
+    "title": "Communion avec la patrie (vol.1: Communion avec la patrie, vol.2: Lmeḥna)",
+    "slug": "communion-avec-la-patrie-vol-1-communion-avec-la-patrie-vol-2-lme-na",
+    "cover": "/images/audio/communion-avec-la-patrie.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Volume 1"
+      },
+      {
+        "num": 2,
+        "title": "Hymne à  Boudiaf"
+      },
+      {
+        "num": 3,
+        "title": "A yemma amek (Quel est ton sort, mère ?)"
+      },
+      {
+        "num": 4,
+        "title": "Imesḥaf (Les monstres)"
+      },
+      {
+        "num": 5,
+        "title": "Amğazi (Communion avec la patrie)"
+      },
+      {
+        "num": 6,
+        "title": "Volume 2"
+      },
+      {
+        "num": 7,
+        "title": "A yemma yemma (La fleur saxifrage)"
+      },
+      {
+        "num": 8,
+        "title": "Tuzzma n temɣer (L'effroi de l'âge)"
+      },
+      {
+        "num": 9,
+        "title": "Si ddaw uẓekka tiɣri-w (De la tombe, mon appel !)"
+      },
+      {
+        "num": 10,
+        "title": "Amessefray (Ma voix, dans le vide...)"
+      },
+      {
+        "num": 11,
+        "title": "Taseεdit (Tassadit)"
+      },
+      {
+        "num": 12,
+        "title": "Lmeḥna (La peine)"
+      }
+    ]
+  },
+  {
+    "id": "pr25",
+    "year": "1994",
+    "title": "Kenza",
+    "slug": "kenza",
+    "cover": "/images/photos/pochettes-albums/358.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Mm imezran (La gracieuse)"
+      },
+      {
+        "num": 2,
+        "title": "A ṭṭaffareɣ deg wussan (L'agneau oblatif)"
+      },
+      {
+        "num": 3,
+        "title": "Ttuɣ (L'amoureux réprouvé)"
+      },
+      {
+        "num": 4,
+        "title": "Kenza"
+      },
+      {
+        "num": 5,
+        "title": "Ṛuḥ ṛuḥ"
+      },
+      {
+        "num": 6,
+        "title": "Tamara (La contrainte)"
+      },
+      {
+        "num": 7,
+        "title": "Tannumi (L'habitude)"
+      },
+      {
+        "num": 8,
+        "title": "Tatut (L'oubli)"
+      },
+      {
+        "num": 9,
+        "title": "Tiɣri u gujil"
+      }
+    ]
+  },
+  {
+    "id": "pr26",
+    "year": "1996",
+    "title": "Tiɣri g-gemma (vol.1: Asirem, vol.2: Tiɣri g-gemma)",
+    "slug": "ti-ri-g-gemma-vol-1-asirem-vol-2-ti-ri-g-gemma",
+    "cover": "/images/photos/pochettes-albums/377.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Volume 1"
+      },
+      {
+        "num": 2,
+        "title": "Asirem (L'espoir)"
+      },
+      {
+        "num": 3,
+        "title": "Tameddit b-b°ass (La fin du jour)"
+      },
+      {
+        "num": 4,
+        "title": "Abrid n tdukli (L'horizon prospère)"
+      },
+      {
+        "num": 5,
+        "title": "Asmekti t-tuzzma (Remords et regrets)"
+      },
+      {
+        "num": 6,
+        "title": "Yir aṭṭan (La fatalité)"
+      },
+      {
+        "num": 7,
+        "title": "Lɣella n ṭṭrad (Le butin de guerre)"
+      },
+      {
+        "num": 8,
+        "title": "La soeur musulmane"
+      },
+      {
+        "num": 9,
+        "title": "Volume 2"
+      },
+      {
+        "num": 10,
+        "title": "Taεekkemt n tegrawla (Epreuves de révolution)"
+      },
+      {
+        "num": 11,
+        "title": "Imettawen-iw (Mes larmes)"
+      },
+      {
+        "num": 12,
+        "title": "Tiɣri g-gemma (La complainte de ma mère)"
+      },
+      {
+        "num": 13,
+        "title": "Tuzzma (L'effroi)"
+      },
+      {
+        "num": 14,
+        "title": "Lḥif n nnger (La déshérence)"
+      },
+      {
+        "num": 15,
+        "title": "Lmutt b-b°egrawliw (Compagnon de la révolution)"
+      },
+      {
+        "num": 16,
+        "title": "Tiɣri n tağğalt (La révolte de la veuve)"
+      }
+    ]
+  },
+  {
+    "id": "pr27",
+    "year": "1997",
+    "title": "Au nom de tous les miens (vol.1: Semeḥtiyi, vol.2: Sel kan i dderz)",
+    "slug": "au-nom-de-tous-les-miens-vol-1-seme-tiyi-vol-2-sel-kan-i-dderz",
+    "cover": "/images/photos/pochettes-albums/302.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Volume 1"
+      },
+      {
+        "num": 2,
+        "title": "Semmeḥt-iyi a leḥbab-iw (Mes amis... désolé)"
+      },
+      {
+        "num": 3,
+        "title": "Ay ixf-iw (Mon âme, que faire ?)"
+      },
+      {
+        "num": 4,
+        "title": "Anda-tt teεzibt (La vertu dépravée)"
+      },
+      {
+        "num": 5,
+        "title": "A baba ṛuh (Va, père)"
+      },
+      {
+        "num": 6,
+        "title": "Ay aḥbib-iw (L'ami fidèle)"
+      },
+      {
+        "num": 7,
+        "title": "Imcumen (Les scélérats)"
+      },
+      {
+        "num": 8,
+        "title": "Volume 2"
+      },
+      {
+        "num": 9,
+        "title": "Sel kan i dderz (Le temps au galop)"
+      },
+      {
+        "num": 10,
+        "title": "Ffeɣ ay ajṛad tamurt-iw (L'armée de sauterelles)"
+      },
+      {
+        "num": 11,
+        "title": "At yetran (Les galonnés)"
+      },
+      {
+        "num": 12,
+        "title": "Qqurent tregwa (Les rigoles de mes yeux)"
+      },
+      {
+        "num": 13,
+        "title": "Ay izri yesrindimen (A chaudes larmes)"
+      },
+      {
+        "num": 14,
+        "title": "Armi glalzeɣ i faqeɣ (Ebranlé)"
+      }
+    ]
+  },
+  {
+    "id": "pr28",
+    "year": "1998",
+    "title": "Lettre ouverte aux...(vol.1: Tabratt i l'ḥekam, vol.2: I luḥqed zhir)",
+    "slug": "lettre-ouverte-aux-vol-1-tabratt-i-l-ekam-vol-2-i-lu-qed-zhir",
+    "cover": "/images/audio/lettre.jpg",
+    "label": null,
+    "description": null,
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Volume 1"
+      },
+      {
+        "num": 2,
+        "title": "Ayen ayen (Ma vie d'abîme)"
+      },
+      {
+        "num": 3,
+        "title": "A tamɣart (Sa perdition)"
+      },
+      {
+        "num": 4,
+        "title": "Ifut lawan (L'ogresse de ma vie)"
+      },
+      {
+        "num": 5,
+        "title": "Nezga (L'amour fou)"
+      },
+      {
+        "num": 6,
+        "title": "Tabratt i l'ḥekam (Lettre ouverte aux...)"
+      },
+      {
+        "num": 7,
+        "title": "Volume 2"
+      },
+      {
+        "num": 8,
+        "title": "Ur sḥissif ara (Le col du salut)"
+      },
+      {
+        "num": 9,
+        "title": "Iluḥq-ed zzhir (A nos portes, la mort !)"
+      },
+      {
+        "num": 10,
+        "title": "Ddu d webrid-ik a l'ḥif (Salubre misère)"
+      },
+      {
+        "num": 11,
+        "title": "Yehwa-yam (Libre et femme)"
+      },
+      {
+        "num": 12,
+        "title": "Beddeɣ di tizi (Le gâchis)"
+      },
+      {
+        "num": 13,
+        "title": "Sers iman-ik (Narcisse noyé)"
+      }
+    ]
+  }
+]

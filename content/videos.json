@@ -1,0 +1,132 @@
+[
+  {
+    "id": "1",
+    "slug": "interviews",
+    "title": "Interviews",
+    "description": "Interviews de Matoub Lounès sur des plateaux de télévision",
+    "videos": [
+      {
+        "id": "v1",
+        "title": "En Italie en avril 1995",
+        "youtubeId": "FEH2Sfjawlk",
+        "date": "Avril 1995",
+        "description": "Interview accordée lors de sa participation à la Marche des Rameaux à Rome pour l'abolition de la peine de mort."
+      },
+      {
+        "id": "v2",
+        "title": "Sur le plateau de 7/7 avec Anne Sinclair (TF1)",
+        "youtubeId": "Qz0n5VZRPNI",
+        "date": "1995",
+        "description": "Passage dans l'émission culte Sept sur Sept de TF1 avec Anne Sinclair."
+      },
+      {
+        "id": "v3",
+        "title": "Sur le plateau du JT de TF1 avec PPDA",
+        "dailymotionId": "xvkfs",
+        "date": "1998",
+        "description": "Reportage dans le journal télévisé de TF1 présenté par Patrick Poivre d'Arvor."
+      },
+      {
+        "id": "v4",
+        "title": "Interview par Florence Belkacem",
+        "dailymotionId": "xjer2",
+        "date": "1997",
+        "description": "Long entretien accordé à la journaliste Florence Belkacem."
+      },
+      {
+        "id": "v5",
+        "title": "Extrait d'un reportage de la BBC",
+        "dailymotionId": "x1kj1l",
+        "date": "",
+        "description": "Extrait d'un reportage de la BBC sur Matoub Lounès."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "slug": "matoub-chante",
+    "title": "Matoub chante",
+    "description": "Performances scéniques et enregistrements de Matoub Lounès",
+    "videos": [
+      {
+        "id": "v6",
+        "title": "Matoub chante Kenza — Cercle de minuit 1995",
+        "youtubeId": "dmLsxruvUi4",
+        "date": "1995",
+        "description": "Interprétation de Kenza dans l'émission Cercle de minuit sur France 2."
+      },
+      {
+        "id": "v7",
+        "title": "Matoub chante Asmekti t-tuzzma",
+        "dailymotionId": "x86b64",
+        "date": "1996",
+        "description": "Performance live de la chanson Asmekti t-tuzzma."
+      },
+      {
+        "id": "v8",
+        "title": "Concert Zénith de Paris 1995",
+        "youtubeId": "s_HTyVOOvBo",
+        "date": "1995",
+        "description": "Matoub Lounès en concert au Zénith de Paris."
+      },
+      {
+        "id": "v9",
+        "title": "Concert au stade de Béjaïa (Bgayet)",
+        "dailymotionId": "x67rsj",
+        "date": "1997",
+        "description": "Matoub Lounès en concert au stade de Béjaïa."
+      },
+      {
+        "id": "v10",
+        "title": "Matoub chante — performance live",
+        "youtubeId": "f7tim0OEXRA",
+        "date": "",
+        "description": "Performance live de Matoub Lounès."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "slug": "chansons-sous-titrees",
+    "title": "Chansons sous-titrées",
+    "description": "Chansons de Matoub Lounès avec sous-titres français",
+    "videos": [
+      {
+        "id": "v11",
+        "title": "Chant 3 — sous-titré",
+        "dailymotionId": "x2xscn",
+        "date": "",
+        "description": "Chanson de Matoub Lounès sous-titrée en français."
+      },
+      {
+        "id": "v12",
+        "title": "Chant 4 — sous-titré",
+        "dailymotionId": "x1l37b",
+        "date": "",
+        "description": "Chanson de Matoub Lounès sous-titrée en français."
+      },
+      {
+        "id": "v13",
+        "title": "Allah Wakber — sous-titré",
+        "youtubeId": "UVWrj6N0xFI",
+        "date": "1983",
+        "description": "Chanson emblématique de Matoub, sous-titrée en français."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "slug": "ils-parlent-de-matoub",
+    "title": "Ils parlent de Matoub",
+    "description": "Témoignages et hommages à Matoub Lounès",
+    "videos": [
+      {
+        "id": "v14",
+        "title": "Concert et hommage",
+        "youtubeId": "JVa8BiH4Rjs",
+        "date": "",
+        "description": "Hommage et concert dédié à Matoub Lounès."
+      }
+    ]
+  }
+]

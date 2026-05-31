@@ -1,26 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@1,400;1,700&family=Noto+Sans+Tifinagh&display=swap');
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* ─── Palette « Lueur d'Espoir » ─── */
+  /* Fonds clairs chauds — lumière du soleil kabyle */
+  --color-bg:        #FDF8F1;
+  --color-surface:   #FFFFFF;
+  --color-surface-2: #F5EFE4;
+  --color-surface-3: #EDE4D6;
+
+  /* Or kabyle — bijoux, soleil, richesse */
+  --color-gold:       #C8860A;
+  --color-gold-light: #F0A830;
+  --color-amber:      #E07B00;
+
+  /* Terracotta — poterie, argile, chaleur */
+  --color-terra:      #C94820;
+  --color-terra-light:#E5622E;
+
+  /* Vert montagne — Djurdjura, espoir, vie */
+  --color-emerald:    #2E7D6B;
+  --color-emerald-light: #3DA48E;
+
+  /* Bleu ciel — liberté, méditerranée */
+  --color-blue:       #1C5C9E;
+  --color-blue-bright:#2976CC;
+  --color-sky:        #4A90C4;
+
+  /* Textes */
+  --color-white:   #FFFFFF;
+  --color-text:    #1A1208;
+  --color-muted:   #7A6545;
+  --color-subtle:  #A8906E;
+
+  /* Bordures */
+  --color-border:       rgba(180,140,80,0.22);
+  --color-border-bright: rgba(200,134,10,0.4);
+
+  /* Legacy aliases */
+  --color-earth:      #1A1208;
+  --color-parchment:  #1A1208;
+  --color-silver:     #7A6545;
+  --color-saffron:    #F0A830;
+  --color-card:       #FFFFFF;
+  --color-sidebar:    #FFFFFF;
+  --color-background: #FDF8F1;
+  --color-foreground: #1A1208;
+  --color-primary:    #C8860A;
+  --color-primary-hover: #E07B00;
+
+  /* Fonts */
+  --font-serif:     'Amiri', 'Georgia', serif;
+  --font-sans:      'Inter', 'Arial', sans-serif;
+  --font-display:   'Playfair Display', serif;
+  --font-tifinagh:  'Noto Sans Tifinagh', sans-serif;
+
+  --radius: 0.75rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #FDF8F1;
+  --foreground: #1A1208;
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-bg);
+  background-image:
+    radial-gradient(ellipse 120% 50% at 50% -5%, rgba(200,134,10,0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 90% 100%, rgba(46,125,107,0.06) 0%, transparent 50%);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  min-height: 100vh;
 }
+
+/* ─── Gold gradient text ─── */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #C8860A 0%, #E8A820 50%, #C8860A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ─── Modern card ─── */
+.kabyle-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+.kabyle-card:hover {
+  border-color: rgba(200,134,10,0.45);
+  box-shadow: 0 4px 20px rgba(180,120,30,0.12);
+}
+.kabyle-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(to right, transparent, rgba(200,134,10,0.35), transparent);
+}
+
+/* ─── Kabyle separator ─── */
+.kabyle-sep {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+.kabyle-sep::before,
+.kabyle-sep::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(200,134,10,0.4), transparent);
+}
+.kabyle-sep-icon { color: var(--color-gold); font-size: 0.8rem; }
+
+/* ─── Tifinagh ─── */
+.font-tifinagh { font-family: var(--font-tifinagh); }
+
+/* ─── Badges ─── */
+.badge-gold {
+  background: rgba(200,134,10,0.1);
+  border: 1px solid rgba(200,134,10,0.3);
+  color: var(--color-gold);
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.badge-terra {
+  background: rgba(201,72,32,0.1);
+  border: 1px solid rgba(201,72,32,0.3);
+  color: var(--color-terra);
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+.badge-blue {
+  background: rgba(28,92,158,0.1);
+  border: 1px solid rgba(28,92,158,0.25);
+  color: var(--color-blue);
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+/* ─── Buttons ─── */
+.btn-primary {
+  background: linear-gradient(135deg, #C8860A, #E8A820);
+  color: #FFFFFF;
+  font-weight: 700;
+  padding: 0.6rem 1.4rem;
+  border-radius: 0.5rem;
+  transition: opacity 0.2s, transform 0.15s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  box-shadow: 0 2px 10px rgba(200,134,10,0.3);
+}
+.btn-primary:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+.btn-outline {
+  border: 1px solid rgba(200,134,10,0.45);
+  color: var(--color-gold);
+  background: rgba(200,134,10,0.06);
+  font-weight: 600;
+  padding: 0.6rem 1.4rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.btn-outline:hover {
+  background: rgba(200,134,10,0.12);
+  border-color: var(--color-gold);
+}
+
+/* ─── Section heading ─── */
+.section-eyebrow {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+  margin-bottom: 0.4rem;
+}
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--color-surface-2); }
+::-webkit-scrollbar-thumb { background: var(--color-surface-3); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-gold); }
+
+/* ─── Selection ─── */
+::selection {
+  background: rgba(200,134,10,0.2);
+  color: var(--color-text);
+}
+
+/* ─── Tifinagh decorative ─── */
+.tifinagh-deco {
+  font-family: var(--font-tifinagh);
+  font-size: 3rem;
+  color: rgba(200,134,10,0.07);
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+  letter-spacing: 0.5rem;
+}
+
+/* ─── Image overlay card ─── */
+.img-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  aspect-ratio: 4/3;
+}
+.img-card img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.img-card:hover img { transform: scale(1.04); }
+.img-card-overlay {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  background: linear-gradient(to top, rgba(255,248,241,0.95) 0%, transparent 100%);
+  padding: 1.2rem 1rem 0.8rem;
+}
+
+/* ─── Animated underline ─── */
+.nav-link-animated { position: relative; }
+.nav-link-animated::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; left: 0;
+  width: 0; height: 1.5px;
+  background: var(--color-gold);
+  transition: width 0.25s ease;
+}
+.nav-link-animated:hover::after,
+.nav-link-animated.active::after { width: 100%; }
