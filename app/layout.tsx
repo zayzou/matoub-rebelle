@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { VercelMonitoring } from "@/components/common/VercelAnalytics";
 
 export const metadata: Metadata = {
   title: {
@@ -61,7 +62,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           rel="stylesheet"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <VercelMonitoring />
+      </body>
     </html>
   );
 }
