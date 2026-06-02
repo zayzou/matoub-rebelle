@@ -1,7 +1,7 @@
 export const matoubJsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
-  "@id": "https://matoub-rebelle.vercel.app/#person",
+  "@id": "https://matoub-rebelle.com/#person",
   name: "Matoub Lounès",
   alternateName: ["Lounès Matoub", "Lounes Matoub"],
   birthDate: "1956-01-24",
@@ -14,22 +14,22 @@ export const matoubJsonLd = {
     "@type": "Place",
     name: "Kabylie, Algérie",
   },
-  image: "https://matoub-rebelle.vercel.app/images/studio/220.jpg",
+  image: "https://matoub-rebelle.com/images/studio/220.jpg",
   description: "Chanteur, poète et défenseur de la culture amazigh kabyle (1956–1998)",
   jobTitle: "Chanteur, Poète, Militant politique",
   nationality: {
     "@type": "Country",
     name: "Algérie",
   },
-  url: "https://matoub-rebelle.vercel.app",
+  url: "https://matoub-rebelle.com",
 };
 
 export const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Site Hommage à Matoub Lounès",
-  url: "https://matoub-rebelle.vercel.app",
-  logo: "https://matoub-rebelle.vercel.app/favicon.ico",
+  url: "https://matoub-rebelle.com",
+  logo: "https://matoub-rebelle.com/favicon.ico",
   description: "Site entièrement consacré à la vie et à l'œuvre de Matoub Lounès",
   sameAs: [
     "https://www.facebook.com/FondationLounesMatoub98/",

@@ -8,7 +8,7 @@ import { matoubJsonLd, organizationJsonLd } from "@/app/(site)/structured-data";
 
 export const metadata: Metadata = {
   title: "Matoub Lounès — Le Rebelle Kabyle | Chanteur, Poète, Symbole de Liberté",
-  description: "Découvrez la vie et l'œuvre de Matoub Lounès (1956–1998), le chanteur-poète kabyle qui a marqué la culture amazigh. Albums, chansons, biographie, vidéos et hommages.",
+  description: "Matoub Lounès — Le Rebelle : découvrez la vie et l'œuvre de Matoub Lounès (1956–1998), chanteur-poète kabyle. Albums, chansons, biographie, vidéos et hommages.",
   keywords: [
     "Matoub Lounès",
     "Chanteur kabyle",
@@ -101,7 +101,7 @@ export default function HomePage() {
             >
               Matoub
               <br />
-              <span className="text-gold-gradient">Lounès</span>
+              <span className="text-gold-gradient">Lounès — Le Rebelle</span>
             </h1>
 
             {/* Subtitle */}
