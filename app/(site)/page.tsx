@@ -404,7 +404,7 @@ export default function HomePage() {
             className="text-3xl sm:text-4xl font-bold mb-6 leading-tight"
             style={{ fontFamily: "var(--font-serif)", color: "var(--color-text)" }}
           >
-            &laquo;&nbsp;Je suis kabyle avant d&apos;être algérien&nbsp;&raquo;
+            &laquo;&nbsp;je suis kabyle pas parce que je rejette les autres , je peut conjuguer le &quot;why not&quot; mais je suis kabyle !&nbsp;&raquo;
           </h2>
           <p className="text-base leading-relaxed mb-8" style={{ color: "var(--color-muted)" }}>
             Matoub Lounès a consacré sa vie à un seul combat : que son peuple
