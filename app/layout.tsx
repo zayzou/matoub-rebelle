@@ -1,6 +1,42 @@
 import type { Metadata } from "next";
+import {
+  Amiri,
+  Inter,
+  Playfair_Display,
+  Noto_Sans_Tifinagh,
+} from "next/font/google";
 import "./globals.css";
 import { VercelMonitoring } from "@/components/common/VercelAnalytics";
+
+const fontSerif = Amiri({
+  weight: ["400", "700"],
+  style: ["normal", "italic"],
+  subsets: ["arabic", "latin"],
+  variable: "--font-serif",
+  display: "swap",
+});
+
+const fontSans = Inter({
+  weight: ["300", "400", "500", "600", "700"],
+  subsets: ["latin"],
+  variable: "--font-sans",
+  display: "swap",
+});
+
+const fontDisplay = Playfair_Display({
+  weight: ["400", "700"],
+  style: ["italic"],
+  subsets: ["latin"],
+  variable: "--font-display",
+  display: "swap",
+});
+
+const fontTifinagh = Noto_Sans_Tifinagh({
+  weight: "400",
+  subsets: ["tifinagh"],
+  variable: "--font-tifinagh",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: {
@@ -53,15 +89,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="fr">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@1,400;1,700&family=Noto+Sans+Tifinagh&display=swap"
-          rel="stylesheet"
-        />
-      </head>
+    <html
+      lang="fr"
+      className={`${fontSerif.variable} ${fontSans.variable} ${fontDisplay.variable} ${fontTifinagh.variable}`}
+    >
       <body>
         {children}
         <VercelMonitoring />
