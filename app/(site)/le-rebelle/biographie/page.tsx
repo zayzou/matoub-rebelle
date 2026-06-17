@@ -3,7 +3,7 @@ import { Award } from "lucide-react";
 import { BreadcrumbNav } from "@/components/common/BreadcrumbNav";
 import { SectionTitle } from "@/components/common/SectionTitle";
 import { JsonLdScript } from "@/components/common/JsonLdScript";
-import { articleJsonLd, breadcrumbJsonLd } from "@/app/(site)/structured-data";
+import { articleJsonLd, breadcrumbJsonLd, matoubJsonLd } from "@/app/(site)/structured-data";
 
 export const metadata: Metadata = {
   title: "Biographie de Matoub Lounès — Le Rebelle Kabyle",
@@ -39,8 +39,23 @@ export const metadata: Metadata = {
 };
 
 export default function BiographiePage() {
+  const articleLd = articleJsonLd({
+    title: "Biographie de Matoub Lounès — Le Rebelle Kabyle",
+    description: "Biographie complète de Matoub Lounès (1956–1998), chanteur-poète kabyle.",
+    image: "https://matoub-rebelle.com/images/photos/studio/220.jpg",
+    url: "https://matoub-rebelle.com/le-rebelle/biographie",
+  });
+  const breadcrumbLd = breadcrumbJsonLd([
+    { name: "Accueil", url: "https://matoub-rebelle.com" },
+    { name: "Le Rebelle" },
+    { name: "Biographie" },
+  ]);
+
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
+    <JsonLdScript data={matoubJsonLd} id="person-bio" />
+    <JsonLdScript data={articleLd} id="article-bio" />
+    <JsonLdScript data={breadcrumbLd} id="breadcrumb-bio" />
     <div className="max-w-2xl">
       <BreadcrumbNav
         items={[

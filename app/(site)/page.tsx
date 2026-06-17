@@ -5,6 +5,7 @@ import { ArrowRight, Music, BookOpen, Camera, Play, Quote } from "lucide-react";
 import albumsData from "@/content/albums.json";
 import quotesData from "@/content/quotes.json";
 import { matoubJsonLd, organizationJsonLd } from "@/app/(site)/structured-data";
+import { JsonLdScript } from "@/components/common/JsonLdScript";
 
 export const metadata: Metadata = {
   title: "Matoub Lounès — Le Rebelle Kabyle | Chanteur, Poète, Symbole de Liberté",
@@ -59,6 +60,8 @@ export default function HomePage() {
 
   return (
     <main>
+      <JsonLdScript data={matoubJsonLd} id="person-jsonld" />
+      <JsonLdScript data={organizationJsonLd} id="org-jsonld" />
 
       {/* ════════════════════════════════════════
           HERO — image plein fond + texte superposé

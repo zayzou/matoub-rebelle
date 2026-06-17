@@ -4,9 +4,34 @@ import { BreadcrumbNav } from "@/components/common/BreadcrumbNav";
 import { SectionTitle } from "@/components/common/SectionTitle";
 
 export const metadata: Metadata = {
-  title: "Sa vie — Matoub Lounès",
+  title: "Sa Vie — Matoub Lounès, du Village de Taourirt Moussa à l'Assassinat",
   description:
-    "Aperçu de la vie de Matoub Lounès, chanteur-poète kabyle né le 24 janvier 1956 à Taourirt Moussa, assassiné le 25 juin 1998.",
+    "La vie de Matoub Lounès : né le 24 janvier 1956 à Taourirt Moussa en Kabylie, chanteur-poète rebelle, assassiné le 25 juin 1998. Découvrez son parcours.",
+  alternates: {
+    canonical: "https://matoub-rebelle.com/le-rebelle/sa-vie",
+  },
+  keywords: [
+    "Matoub Lounès vie",
+    "Lounès Matoub biographie",
+    "Taourirt Moussa",
+    "Matoub Lounès assassiné",
+    "Chanteur kabyle",
+  ],
+  openGraph: {
+    type: "article",
+    locale: "fr_FR",
+    url: "https://matoub-rebelle.com/le-rebelle/sa-vie",
+    title: "Sa Vie — Matoub Lounès",
+    description: "Le parcours de Matoub Lounès, de sa naissance à son assassinat.",
+    images: [
+      {
+        url: "https://matoub-rebelle.com/images/photos/studio/213.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Matoub Lounès — Sa vie",
+      },
+    ],
+  },
 };
 
 export default function SaViePage() {

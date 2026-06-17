@@ -5,7 +5,36 @@ import { BreadcrumbNav } from "@/components/common/BreadcrumbNav";
 import { SectionTitle } from "@/components/common/SectionTitle";
 import parolesData from "@/content/paroles.json";
 
-export const metadata: Metadata = { title: "Paroles des chansons" };
+export const metadata: Metadata = {
+  title: "Paroles des Chansons de Matoub Lounès — Textes en Kabyle et Français",
+  description:
+    "Retrouvez les paroles complètes des chansons de Matoub Lounès. Textes kabyles et traductions françaises de ses plus grands succès : A Yizem, Africa, Ya Rayah et bien d'autres.",
+  alternates: {
+    canonical: "https://matoub-rebelle.com/paroles",
+  },
+  keywords: [
+    "Paroles Matoub Lounès",
+    "Paroles chansons kabyles",
+    "Textes Matoub Lounès",
+    "Lyrics Matoub Lounès",
+    "Kabyle paroles",
+  ],
+  openGraph: {
+    type: "website",
+    locale: "fr_FR",
+    url: "https://matoub-rebelle.com/paroles",
+    title: "Paroles des Chansons de Matoub Lounès",
+    description: "Les paroles complètes des chansons de Matoub Lounès en kabyle et en français.",
+    images: [
+      {
+        url: "https://matoub-rebelle.com/images/photos/studio/213.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Paroles de Matoub Lounès",
+      },
+    ],
+  },
+};
 
 export default function ParolesPage() {
   return (

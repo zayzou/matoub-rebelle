@@ -4,7 +4,35 @@ import { BreadcrumbNav } from "@/components/common/BreadcrumbNav";
 import { SectionTitle } from "@/components/common/SectionTitle";
 import biblioData from "@/content/bibliographie.json";
 
-export const metadata: Metadata = { title: "Bibliographie" };
+export const metadata: Metadata = {
+  title: "Bibliographie — Livres et Ouvrages sur Matoub Lounès",
+  description:
+    "Découvrez les livres, biographies et essais consacrés à Matoub Lounès. Autobiographie, témoignages, études littéraires et hommages au chanteur rebelle kabyle.",
+  alternates: {
+    canonical: "https://matoub-rebelle.com/divers/bibliographie",
+  },
+  keywords: [
+    "Bibliographie Matoub Lounès",
+    "Livres Matoub Lounès",
+    "Biographie Matoub Lounès livre",
+    "Autobiographie Matoub Lounès",
+  ],
+  openGraph: {
+    type: "website",
+    locale: "fr_FR",
+    url: "https://matoub-rebelle.com/divers/bibliographie",
+    title: "Bibliographie — Livres sur Matoub Lounès",
+    description: "Les livres, biographies et essais consacrés à Matoub Lounès.",
+    images: [
+      {
+        url: "https://matoub-rebelle.com/images/photos/studio/220.jpg",
+        width: 800,
+        height: 800,
+        alt: "Bibliographie Matoub Lounès",
+      },
+    ],
+  },
+};
 
 const ROLE_COLORS: Record<string, string> = {
   Autobiographie: "rgba(255,179,0,0.15)",

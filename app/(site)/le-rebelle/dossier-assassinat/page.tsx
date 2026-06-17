@@ -5,8 +5,34 @@ import { BreadcrumbNav } from "@/components/common/BreadcrumbNav";
 import { SectionTitle } from "@/components/common/SectionTitle";
 
 export const metadata: Metadata = {
-  title: "Dossier Assassinat — Matoub Lounès",
-  description: "Enquêtes et témoignages sur l'assassinat de Matoub Lounès le 25 juin 1998 sur la route de Tala Bounane.",
+  title: "Dossier Assassinat — Matoub Lounès, 25 Juin 1998",
+  description:
+    "Enquêtes et témoignages sur l'assassinat de Matoub Lounès le 25 juin 1998 sur la route de Tala Bounane en Kabylie. Qui a tué le rebelle ?",
+  alternates: {
+    canonical: "https://matoub-rebelle.com/le-rebelle/dossier-assassinat",
+  },
+  keywords: [
+    "Assassinat Matoub Lounès",
+    "25 juin 1998",
+    "Tala Bounane",
+    "GIA Matoub Lounès",
+    "Vérité Matoub Lounès",
+  ],
+  openGraph: {
+    type: "article",
+    locale: "fr_FR",
+    url: "https://matoub-rebelle.com/le-rebelle/dossier-assassinat",
+    title: "Dossier Assassinat — Matoub Lounès",
+    description: "Enquêtes et témoignages sur l'assassinat de Matoub Lounès.",
+    images: [
+      {
+        url: "https://matoub-rebelle.com/images/photos/studio/213.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Dossier assassinat Matoub Lounès",
+      },
+    ],
+  },
 };
 
 const ARTICLES = [

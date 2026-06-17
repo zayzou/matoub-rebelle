@@ -3,7 +3,14 @@ import { BreadcrumbNav } from "@/components/common/BreadcrumbNav";
 import { SectionTitle } from "@/components/common/SectionTitle";
 import { ContactForm } from "@/components/features/ContactForm";
 
-export const metadata: Metadata = { title: "Contact" };
+export const metadata: Metadata = {
+  title: "Contact — Matoub Rebelle",
+  description:
+    "Contacter l'administrateur du site Matoub Rebelle pour proposer du contenu, signaler une erreur ou partager votre amour pour l'œuvre de Matoub Lounès.",
+  alternates: {
+    canonical: "https://matoub-rebelle.com/contact",
+  },
+};
 
 export default function ContactPage() {
   return (

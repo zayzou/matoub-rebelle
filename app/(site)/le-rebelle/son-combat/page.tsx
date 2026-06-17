@@ -3,9 +3,35 @@ import { BreadcrumbNav } from "@/components/common/BreadcrumbNav";
 import { SectionTitle } from "@/components/common/SectionTitle";
 
 export const metadata: Metadata = {
-  title: "Son combat — Matoub Lounès",
+  title: "Son Combat — Matoub Lounès pour Tamazight, la Démocratie et la Liberté",
   description:
-    "Matoub Lounès militait pour la reconnaissance de Tamazight, la démocratie, la laïcité et contre le régime algérien et l'intégrisme islamiste.",
+    "Matoub Lounès militait pour la reconnaissance de Tamazight, la démocratie, la laïcité et contre le régime algérien et l'intégrisme islamiste. Son combat pour le peuple kabyle.",
+  alternates: {
+    canonical: "https://matoub-rebelle.com/le-rebelle/son-combat",
+  },
+  keywords: [
+    "Matoub Lounès combat",
+    "Tamazight",
+    "Matoub Lounès démocratie",
+    "Matoub Lounès laïcité",
+    "Kabyle combat",
+    "Allah Wakber",
+  ],
+  openGraph: {
+    type: "article",
+    locale: "fr_FR",
+    url: "https://matoub-rebelle.com/le-rebelle/son-combat",
+    title: "Son Combat — Matoub Lounès",
+    description: "Le combat de Matoub Lounès pour Tamazight, la démocratie et la liberté.",
+    images: [
+      {
+        url: "https://matoub-rebelle.com/images/photos/studio/220.jpg",
+        width: 800,
+        height: 800,
+        alt: "Matoub Lounès — Son combat",
+      },
+    ],
+  },
 };
 
 export default function SonCombatPage() {

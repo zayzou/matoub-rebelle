@@ -5,8 +5,34 @@ import { BreadcrumbNav } from "@/components/common/BreadcrumbNav";
 import { SectionTitle } from "@/components/common/SectionTitle";
 
 export const metadata: Metadata = {
-  title: "Son œuvre — Matoub Lounès",
-  description: "Analyses et regards sur l'œuvre poétique et musicale de Matoub Lounès.",
+  title: "Son Œuvre — Poésie et Musique de Matoub Lounès",
+  description:
+    "Analyses et regards sur l'œuvre poétique et musicale de Matoub Lounès. La poésie kabyle, les chansons engagées et l'héritage artistique du rebelle.",
+  alternates: {
+    canonical: "https://matoub-rebelle.com/le-rebelle/son-oeuvre",
+  },
+  keywords: [
+    "Œuvre Matoub Lounès",
+    "Poésie Matoub Lounès",
+    "Musique kabyle",
+    "Chansons Matoub Lounès",
+    "Poète kabyle",
+  ],
+  openGraph: {
+    type: "article",
+    locale: "fr_FR",
+    url: "https://matoub-rebelle.com/le-rebelle/son-oeuvre",
+    title: "Son Œuvre — Matoub Lounès",
+    description: "L'œuvre poétique et musicale de Matoub Lounès.",
+    images: [
+      {
+        url: "https://matoub-rebelle.com/images/photos/studio/220.jpg",
+        width: 800,
+        height: 800,
+        alt: "Œuvre de Matoub Lounès",
+      },
+    ],
+  },
 };
 
 const ARTICLES = [
