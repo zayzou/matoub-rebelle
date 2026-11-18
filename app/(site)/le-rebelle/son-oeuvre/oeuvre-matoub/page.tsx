@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { BreadcrumbNav } from "@/components/common/BreadcrumbNav";
+import { AdSenseInArticle } from "@/components/common/AdSenseInArticle";
 
 export const metadata: Metadata = {
   title: "Matoub Lounès et son œuvre",
@@ -23,6 +24,7 @@ export default function OeuvreMaToubPage() {
       <div className="space-y-4 text-base leading-relaxed" style={{ color: "var(--color-text)" }}>
         <p>Si les dimensions politique et revendicative de l&apos;œuvre de Matoub Lounès ont été bien rapportées, sa base musicale et sa poésie restent souvent méconnues, notamment par les médias occidentaux. Matoub était un baroudeur du verbe qui avait atteint un niveau artistique auquel très peu pourrait prétendre.</p>
         <p>Sa voix était envoûtante et sa musique s&apos;appuyait aussi bien sur l&apos;usage d&apos;instruments traditionnels comme le mandole — dont il était un véritable virtuose —, le derbouka, le qanoun ou le banjo, que sur l&apos;usage d&apos;instruments modernes tels la basse ou les synthétiseurs.</p>
+        <AdSenseInArticle />
         <p>Sa musique était basée sur la musique kabyle des montagnes, le chaâbi et la musique moderne. Ses chansons couvraient un large éventail de sujets : Tamazight, la démocratie, la liberté, la religion, l&apos;islamisme, l&apos;amour, l&apos;exil, la mémoire, l&apos;histoire, la paix et les droits de l&apos;homme.</p>
         <p>Il voulait que ses textes soient accessibles à tous et non réservés à une élite intellectuelle. Ainsi, dans ses chansons, il utilisait les mots de tous les jours. À ses débuts, le style de Matoub a été influencé par les plus grands chanteurs-poètes, tels Slimane Azem, Cheikh El Hasnaoui, Dahmane El Harrachi ou encore Hadj Mhamed El Anka.</p>
         <p>Mais à la différence des poètes Amazighs qui l&apos;ont précédé, il n&apos;utilise que très peu les métaphores et son style est direct et sans complaisance. Il ne se gênait pas pour aborder les sujets tabous de la société algérienne.</p>

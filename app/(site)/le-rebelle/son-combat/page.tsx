@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { BreadcrumbNav } from "@/components/common/BreadcrumbNav";
 import { SectionTitle } from "@/components/common/SectionTitle";
+import { AdSenseInArticle } from "@/components/common/AdSenseInArticle";
 
 export const metadata: Metadata = {
   title: "Son Combat — Matoub Lounès pour Tamazight, la Démocratie et la Liberté",
@@ -54,6 +55,7 @@ export default function SonCombatPage() {
           l&apos;Algérie et pour que celle-ci soit utilisée dans tous les domaines : école,
           administration, sciences, médias...
         </p>
+        <AdSenseInArticle />
 
         <h2>Contre le pouvoir et l&apos;intégrisme</h2>
         <p>

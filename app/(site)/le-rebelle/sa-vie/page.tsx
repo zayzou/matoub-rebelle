@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { BreadcrumbNav } from "@/components/common/BreadcrumbNav";
 import { SectionTitle } from "@/components/common/SectionTitle";
+import { AdSenseInArticle } from "@/components/common/AdSenseInArticle";
 
 export const metadata: Metadata = {
   title: "Sa Vie — Matoub Lounès, du Village de Taourirt Moussa à l'Assassinat",
@@ -55,6 +56,7 @@ export default function SaViePage() {
           tournent et sont toujours d&apos;actualité autour du culte de la personnalité qui lui est
           voué.
         </p>
+        <AdSenseInArticle />
 
         <Link
           href="/le-rebelle/biographie"

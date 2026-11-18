@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { BreadcrumbNav } from "@/components/common/BreadcrumbNav";
+import { AdSenseInArticle } from "@/components/common/AdSenseInArticle";
 
 export const metadata: Metadata = {
   title: "Un poète pour l'éternité — Matoub Lounès",
@@ -23,6 +24,7 @@ export default function UnPoetePage() {
       <div className="space-y-4 text-base leading-relaxed" style={{ color: "var(--color-text)" }}>
         <p>Lounès Matoub est sublime dans l&apos;éternité de son temps et la singularité de notre humanité. Il est né le 24 janvier 1956 en Grande Kabylie. Il y a été assassiné le 25 juin 1998, victime d&apos;un probable complot politique. Pour les Algériens de Kabylie, le « contrat » de son exécution a été sous-traité à des complices locaux par certains clans de la nébuleuse appelée, de manière fort imprécise, « le pouvoir ».</p>
         <p>Mais ce n&apos;est pas parce qu&apos;il a été assassiné qu&apos;il est considéré comme l&apos;un des personnages importants de l&apos;histoire de l&apos;Algérie contemporaine et comme l&apos;un de ses plus grands artistes. Son statut, il l&apos;a arraché de son vivant même, et c&apos;est d&apos;ailleurs pourquoi il pouvait être utile de le liquider.</p>
+        <AdSenseInArticle />
         <p>Comparer Matoub à des poètes comme Anna Akhmatova, Marina Tsvetaïeva ou son contemporain arabe Mahmoud Darwish peut rendre compte de la dimension universelle de son œuvre et de sa place dans la culture amazigh. Mais il est difficile, si l&apos;on n&apos;y est pas soi-même immergé, de saisir l&apos;ampleur et la qualité de la communication qui a vibré entre le poète chanteur et un si grand nombre de Kabyles.</p>
         <p>Il fait partie de ces rares personnes qui, par la pensée poétique et artistique, ont influé sur l&apos;histoire d&apos;un peuple dans un sens de progrès authentique, en dehors des conspirations pseudo-subversives de l&apos;industrie du divertissement et autres impostures.</p>
         <p>C&apos;est que, bien avant qu&apos;il soit entré dans la légende des héros martyrs, il est allé seul au brasier, se mêlant de sa liberté et de la nôtre :</p>

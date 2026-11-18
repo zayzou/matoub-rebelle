@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { Award } from "lucide-react";
 import { BreadcrumbNav } from "@/components/common/BreadcrumbNav";
 import { SectionTitle } from "@/components/common/SectionTitle";
+import { AdSenseInArticle } from "@/components/common/AdSenseInArticle";
 import { JsonLdScript } from "@/components/common/JsonLdScript";
 import { articleJsonLd, breadcrumbJsonLd, matoubJsonLd } from "@/app/(site)/structured-data";
 
@@ -77,6 +78,7 @@ export default function BiographiePage() {
           Sa mort lui donne un statut de martyr pour les nationalistes et militants kabyles qui
           estiment que les droits qui leur sont accordés sont insuffisants.
         </p>
+        <AdSenseInArticle />
 
         <h2>Enfance</h2>
         <p>

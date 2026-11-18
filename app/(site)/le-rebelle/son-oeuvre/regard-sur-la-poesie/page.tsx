@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { BreadcrumbNav } from "@/components/common/BreadcrumbNav";
+import { AdSenseInArticle } from "@/components/common/AdSenseInArticle";
 
 export const metadata: Metadata = {
   title: "Regard sur la poésie de Matoub Lounès",
@@ -23,6 +24,7 @@ export default function RegardPoesiePage() {
       <div className="space-y-4 text-base leading-relaxed" style={{ color: "var(--color-text)" }}>
         <p>Il y a quelques années, la critique saluait le renouvellement qui s&apos;est produit en poésie kabyle. Cette dernière, pour reprendre la thèse de M. Mammeri, est entrée dans une phase de stagnation liée à la rigidité des structures socio-économiques. Le renouvellement est, lui aussi, lié à l&apos;évolution de ses structures et surtout aux grands bouleversements qu&apos;a connu la société kabyle dans cette dernière moitié du XXème siècle.</p>
         <p>La poésie de Lounès Matoub, tout comme celle de Ben Mohamed et Aït Menguellet, représente un bel exemple de ce renouvellement tant sur le plan thématique que stylistique.</p>
+        <AdSenseInArticle />
 
         <h2 className="text-xl font-bold mt-6" style={{ fontFamily: "var(--font-serif)", color: "var(--color-text)" }}>Chronique du présent</h2>
         <p>L&apos;une des caractéristiques de la poésie de Matoub est d&apos;être inscrite dans le temps. Le poète est devenu un chroniqueur de son temps. Matoub situe les événements dans le temps et dans l&apos;espace. On peut relire l&apos;histoire de l&apos;Algérie depuis la guerre de l&apos;indépendance rien qu&apos;en décortiquant la poésie de Matoub.</p>
