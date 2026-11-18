@@ -93,6 +93,11 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       lang="fr"
       className={`${fontSerif.variable} ${fontSans.variable} ${fontDisplay.variable} ${fontTifinagh.variable}`}
     >
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5982962673144760"
+        crossOrigin="anonymous"
+      />
       <body>
         {children}
         <VercelMonitoring />
